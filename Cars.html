@@ -6,22 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pictures Gallery</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 
 <body>
 
     <nav>
         <ul>
-            <li id="home"><a href="/index.html">Home</a></li>
-            <li><a href="/Nature.html">Nature</a></li>
-            <li><a href="/City.html">City</a></li>
-            <li><a href="/Flowers.html">Flowers</a></li>
-            <li><a href="/Minimalism.html">Minimalism</a></li>
-            <li><a href="/Cars.html">Cars</a></li>
+            <div>
+                <li id="home"><a href="/index.html">Home</a></li>
+            </div>
+            <div>
+                <li><a href="/Nature.html">Nature</a></li>
+                <li><a href="/City.html">City</a></li>
+                <li><a href="/Flowers.html">Flowers</a></li>
+                <li><a href="/Minimalism.html">Minimalism</a></li>
+                <li><a href="/Cars.html">Cars</a></li>
+            </div>
+
         </ul>
 
     </nav>
 
-</body>
 
+
+<img id="myImg" src="/img/cars/honda.jpg" alt="Snow" style="width:100%;max-width:300px">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script src="/script.js"></script>
+</body>
 </html>
